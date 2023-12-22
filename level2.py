@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.subheader('Level 2')
+st.title('Level 2')
 st.markdown('Acum lucrurile vor deveni mult mai interesante.')
 st.write('Numerele pe care le-ai obtinut au o folosinta in viata reala. Formatul lor... ce iti spune? La ce se folosesc? Daca ai nevoie de ajutor, apasa pe butin pentru a primi un hint!')
 if st.button('Hint'):
