@@ -89,6 +89,6 @@ if st.button('Verifica'):
             st.markdown('Bravo, mergi la nivelul urmator!')
             st.link_button('Level 2', url = "")
         else:
-            st.markdown("Al doilea numar este gresit.")    
+            st.markdown("Al doilea numar este gresit!")    
     else:
-        st.markdown('Primul numar este gresit.')
+        st.markdown('Primul numar este gresit!')
