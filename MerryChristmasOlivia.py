@@ -21,7 +21,7 @@ st.write('Ti-am pregatit un mic joc, sper sa iti placa!')
 st.write('Scopul jocului e sa completezi quest-urile ca la final sa gasesti cadoul. Ready? Set.. Go!')
 st.subheader("Level 1")
 st.write('Pentru inceput... o sa facem putina matematica elementara. E simplu, stiu ca nu iti place matematica!')
-# 51.5225373348999, -0.156591636821196
+# 51.5225373348999, -0.15659163682120436
 # 75761.26866745, 49921.7041815894
 st.write('Ca si prim task, vei primi urmatoarele 2 numere:')
 st.write('75761.26866745, 49921.7041815894')
@@ -65,7 +65,7 @@ nr2 = st.number_input('Enter second number', value=0.0, format = '%f')
 st.markdown("Ca sa verifici daca ai numerele potrivite, apasa butonul de jos:")
 if st.button('Verifica'):
     if nr1 == 51.522537334899994:
-        if nr2 == -0.15663746266520207:
+        if nr2 == -0.15659163682120436:
             st.markdown('Bravo, mergi la nivelul urmator!')
             st.link_button('Level 2', url = "https://level-2.streamlit.app/")
         else:
