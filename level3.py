@@ -1,11 +1,5 @@
 import streamlit as st
 
-if st.button('Hint 1'):
-    st.markdown('Poate poti sa aflii ceva daca citesti ce scrie pe statueta?')
-    if st.button('Hint 2'):
-        st.markdown('Poate are de a face cu numarul de pe statuie?')
-        if st.button('Hint 3'):
-            st.button('Poate numarul de pe statuie reprezinta numarul paginii?')
 
 
 st.subheader('Level 3')
@@ -17,3 +11,9 @@ if st.button('Confirm'):
         st.link_button('Level 4', url = '')
     else:
         st.markdown('Gresit!')
+if st.button('Hint 1'):
+    st.markdown('Poate poti sa aflii ceva daca citesti ce scrie pe statueta?')
+    if st.button('Hint 2'):
+        st.markdown('Poate are de a face cu numarul de pe statuie?')
+        if st.button('Hint 3'):
+            st.button('Poate numarul de pe statuie reprezinta numarul paginii?')
