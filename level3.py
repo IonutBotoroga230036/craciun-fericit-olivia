@@ -15,4 +15,4 @@ if st.button('Hint 1'):
 if st.button('Hint 2'):
     st.markdown('Poate are de a face cu numarul de pe statuie?')
 if st.button('Hint 3'):
-    st.button('Poate numarul de pe statuie reprezinta numarul paginii?')
+    st.markdown('Poate numarul de pe statuie reprezinta numarul paginii?')
