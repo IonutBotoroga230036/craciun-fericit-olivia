@@ -10,5 +10,6 @@ name = st.text_input('Name of the person')
 if st.button('Enter'):
     if name == 'Sherlock Holmes':
         st.markdown("Bravo!")
+        
     else:
         st.markdown('Gresit!')
