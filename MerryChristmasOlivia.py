@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.switch_page_button import switch_page
 
 def calculate(num1, num2, operation):
     if operation == 'Add':
