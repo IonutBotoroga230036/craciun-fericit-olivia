@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Level 3!')
+st.title('Level 3')
 st.markdown('Acum pentru a completa acest nivel, va trebui sa gasesti numele altei persoane. Pentru a gasi numele persoanei potrivite va trebui sa cauti canonul lui Sherlock Holmes .pdf online. Mai departe va trebui sa utilizezi indiciile pe care le-ai descoperit pana acum. Daca ai nevoie de un sfat, sunt aici :smile:.')
 name1 = st.text_input('Name of the person from the book')
 if st.button('Confirm'):
