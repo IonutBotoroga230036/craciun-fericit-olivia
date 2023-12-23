@@ -55,7 +55,7 @@ if st.button('Submit'):
         st.markdown('Gresit!')
     elif cnt == 5:
         st.markdown('Felicitari! Ai trecut de cele 5 probe! Poti sa iti deschizi cadoul acum!')
-        st.link_button('Gift!', url= '')
+        st.link_button('Gift!', url= 'https://cadou-pentru-sotia-mea-olivia.streamlit.app/')
     else:
         st.markdown('YOU GET A N-WORD PASS, NIGGA!')
-        st.link_button('Gift!', url= '')
+        st.link_button('Gift!', url= 'https://cadou-pentru-sotia-mea-olivia.streamlit.app/')
