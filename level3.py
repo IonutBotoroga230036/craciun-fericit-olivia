@@ -14,5 +14,6 @@ name1 = st.text_input('Name of the person from the book')
 if st.button('Confirm'):
     if name1 == 'Miss Stoner':
         st.markdown('Bravo!')
+        st.link_button('Level 4', url = '')
     else:
         st.markdown('Gresit!')

@@ -10,6 +10,6 @@ name = st.text_input('Name of the person')
 if st.button('Enter'):
     if name == 'Sherlock Holmes':
         st.markdown("Bravo!")
-        
+        st.link_button('Level 3', url = 'https://level3-olivia-e-sotia-mea.streamlit.app/')
     else:
         st.markdown('Gresit!')
