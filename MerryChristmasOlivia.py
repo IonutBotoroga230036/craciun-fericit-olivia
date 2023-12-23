@@ -67,7 +67,7 @@ if st.button('Verifica'):
     if nr1 == 51.522537334899994:
         if nr2 == -0.15663746266520207:
             st.markdown('Bravo, mergi la nivelul urmator!')
-            st.link_button('Level 2', url = "")
+            st.link_button('Level 2', url = "https://level-2.streamlit.app/")
         else:
             st.markdown("Al doilea numar este gresit!")    
     else:
