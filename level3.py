@@ -9,6 +9,7 @@ if st.button('Confirm'):
         st.link_button('Level 4', url = '')
     else:
         st.markdown('Gresit!')
+st.subheader('Hints')
 if st.button('Hint 1'):
     st.markdown('Poate poti sa aflii ceva daca citesti ce scrie pe statueta?')
 if st.button('Hint 2'):
